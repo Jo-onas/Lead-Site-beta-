@@ -29,7 +29,7 @@ a {
 .bg {
     width: 100vw;
     height: 100vh;
-    background: url("assets/bg.png");
+    background-image: url(assets/background.jpg);
     background-position: top;
     background-size: cover;
 }
@@ -75,17 +75,17 @@ nav.menu ul {
 
     display: flex;
 
-    gap: 40px;
+    margin-left: 25vw;
+
+    gap: 20px;
 }
 
 nav.menu ul li {
-    background-color: rgba(148, 102, 255, .3);
-
     border-radius: 10px;
     transition: 0.3s;
 }
 nav.menu ul li:hover {
-    background-color: rgba(135, 87, 248, 0.8);
+    background-color: rgba(42, 138, 167, 0.8);
 }
 
 nav.menu ul li a {
@@ -293,3 +293,86 @@ header button:hover {
 .banner .pointer.active {
     background-color: #48CCC4;
 }
+
+/* RODAPE */
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(13, 7, 66);
+    height: 230px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.rodape {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    /*animation: animation 2s;*/
+}
+
+
+footer p {
+   color: aliceblue;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+
+footer li {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+     color: aliceblue;
+     margin-bottom: 2px;
+ }
+
+ @keyframes animation {
+
+   from {
+       transform: translateY(20vw);
+   }
+
+   to {
+       transform: translateY();
+   }
+ }
+
+
+.aluradiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leadlogo {
+   width: 150px;
+   margin-right: 20px;
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+
+.atheneulogo {
+   padding: 5px;
+   width: 210px;
+   margin-right: 20px;
+}
+
+.alura {
+    width: 100px;
+    padding: 15px;
+
+}
+
+.luiza {
+    width: 130px;
+}
+
+.aluradiv img:hover{
+   background-color: rgba(168, 168, 168, 0.329);
+   border-radius: 5px;
+}
+/*FIM DO RODAPE*/
