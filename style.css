@@ -207,27 +207,6 @@ header button:hover {
 
 /* Slider Áreas */
 
-    .banner2 {
-        overflow-x:hidden ;
-        display: flex;
-        align-items: center;
-    }
-
-    .banner2 .slider2 {
-        display: flex;
-        transition: all 0.7s ease-in-out;
-    }
-
-    .slidergp {
-        display: flex;
-        width: 100vw;
-    }
-
-    .slidergp img {
-        width: 100vw;
-        height: 400px;
-    }
-
 /* --------------------------------------- */
 
 /* -- AREAS -- */
