@@ -10,6 +10,8 @@ body, input, textarea, button {
     font-family: 'Roboto', sans-serif;
     
 }
+body{background-color: rgb(13, 7, 66);
+overflow-x: hidden;}
 
 a {
     display: block;
@@ -214,18 +216,26 @@ header button:hover {
     }
 
     .banner2 .slider2 {
+
         display: flex;
         transition: all 0.7s ease-in-out;
     }
 
     .slidergp {
+        align-items: center;
+        flex-direction: column;
         display: flex;
         width: 100vw;
     }
 
     .slidergp img {
-        width: 100vw;
-        height: 400px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border-color: white;
+        border-style: solid;
+        border-width: 10px;
+        width: 40vw;
+        height: 100%;
     }
 
 /* --------------------------------------- */
@@ -320,9 +330,9 @@ header button:hover {
 /* RODAPE */
 
 footer {
-    margin-top: 400px;
+    margin-top: 700px;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(13, 7, 66);
+    background-color: rgb(3, 0, 34);
     height: 230px;
    display: flex;
    align-items: center;
